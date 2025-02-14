@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313739429077",
+    "project_id": "wm-transporte",
+    "storage_bucket": "wm-transporte.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313739429077:android:6950f778771d20fd6c0e5c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5MZA0rDK7d3bK7cjguwuZeg7rF-Qm0JM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

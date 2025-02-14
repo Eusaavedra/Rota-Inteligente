@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.rotainteligente"
-        minSdk = 34
+        minSdk = 30
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -40,8 +40,17 @@ android {
 }
 
 dependencies {
+    val nav_version = "2.8.5"
 
-    implementation("androidx.datastore:datastore-preferences:1.1.2")
+
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0")
+    implementation ("androidx.navigation:navigation-compose:$nav_version")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
+    implementation("com.google.firebase:firebase-firestore:25.1.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.0")
+
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
